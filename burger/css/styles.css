@@ -870,19 +870,25 @@ header{
     .title {
         font-size: 38px;
         font-weight: 700;
+        margin-top: 28px;
+        margin-bottom: 13px;
     }
     .breadcrumbs a {
         font-size: 14px;
     }
     .description {
         font-size: 12px;
+        margin-bottom: 2px;
     }
     .bg{
         padding: 55px 0;
+        margin: 0 0 40px;
     }
     .banner-box{
+        margin-top: -5px;
         background-position: 17% center;
-        padding: 35px 24px 54px;
+        padding: 34px 14px 51px;
+        margin-bottom: 39px;
     }
     .menu-grid {
         gap: 25px 15px;
@@ -892,7 +898,7 @@ header{
         margin-bottom: 30px;
     }
     .menu-title {
-        font-size: 33px;
+        font-size: 27px;
     }
     .menu-select {
         flex-basis: 136px;
