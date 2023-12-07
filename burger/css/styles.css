@@ -891,7 +891,7 @@ header{
         margin-bottom: 39px;
     }
     .menu-grid {
-        gap: 25px 15px;
+        gap: 22px 15px;
         margin-bottom: 40px;
     }
     .menu-header {
@@ -899,6 +899,7 @@ header{
     }
     .menu-title {
         font-size: 27px;
+        padding-bottom: 7px;
     }
     .menu-select {
         flex-basis: 136px;
@@ -921,7 +922,7 @@ header{
     }
     .menu-grid-price {
         font-size: 16px;
-        margin-top: 6px;
+        margin-top: 7px;
         margin-bottom: 7px;
     }
     .menu-grid-btn {
@@ -942,13 +943,19 @@ header{
     }
     .menu-other {
         height: 108vw;
-        padding-top: 37px;
     }
     .menu-grid-text{
         font-size: 14px;
     }
     .menu-other .menu-grid {
         padding-bottom: 22vw;
+        gap: 10px 5px;
+    }
+    .menu-grid-two .menu-grid{
+        gap: 0px 5px;
+    }
+    .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img{
+        padding-bottom: 8px;
     }
     .content {
         padding-top: 40px;
