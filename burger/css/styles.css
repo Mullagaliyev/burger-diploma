@@ -911,20 +911,21 @@ header{
         margin-bottom: 7px;
     }
     .menu-grid-cover img {
-        width: 140.463px;
-        height: 201.767px;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 17px;
     }
     .menu-grid-title {
-        font-size: 13px;
         margin-top: -5px;
-        margin-bottom: 5px;
+        font-size: 13px;
     }
     .menu-grid-price {
         font-size: 16px;
-        margin-top: 0;
+        margin-top: 6px;
         margin-bottom: 7px;
     }
     .menu-grid-btn {
+        margin-top: 12px;
         padding: 10px 20px;
     }
     .menu-other .menu-grid-cover {
@@ -933,14 +934,19 @@ header{
     .menu-other .menu-grid-cover img {
         height: 100%;
     }
+    .menu.grid-cover img{
+        padding-bottom: 28px;
+    }
     .menu-other .menu-grid-item {
-        flex: 0 0 38vw;
+        flex: 0 0 140px;
     }
     .menu-other {
         height: 108vw;
         padding-top: 37px;
     }
-
+    .menu-grid-text{
+        font-size: 14px;
+    }
     .menu-other .menu-grid {
         padding-bottom: 22vw;
     }
