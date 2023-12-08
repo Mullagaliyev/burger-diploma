@@ -914,10 +914,10 @@ header{
     .menu-grid-cover img {
         width: 100%;
         height: 100%;
-        padding-bottom: 17px;
+        padding-bottom: 10px;
     }
     .menu-grid-title {
-        margin-top: -5px;
+        margin-top: 1px;
         font-size: 13px;
     }
     .menu-grid-price {
