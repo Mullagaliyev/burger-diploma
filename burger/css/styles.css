@@ -904,7 +904,7 @@ header{
 	}
 	.menu-grid {
 		gap: 22px 15px;
-		margin-bottom: 40px;
+        margin-bottom: 40px;
 	}
 	.menu-grid-cover {
 		height: 56vw;
@@ -930,24 +930,24 @@ header{
 		height: 122vw;
         gap: 10px 5px;
 	}
-    
     .menu-grid-two .menu-grid{
         gap: 0px 5px;
-    }
-    .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img{
-        padding-bottom: 8px;
     }
 	.menu-other .menu-grid {
 		padding-bottom: 38vw;
 	}
-    .menu-grid-two .menu-grid{
-        gap: 0px 5px;
+    .menu-grid{
+        gap: 20px 5px;
+    }
+    .menu.menu-other{
+        padding-bottom: 50px;
     }
 	.menu-other .menu-grid-cover {
 		height: 100%;
 	}
 	.menu-other .menu-grid-cover img {
-		height: 100%;
+		width: 140px;
+        height: 180px;
 	}
     .menu-grid-cover img{
         padding-bottom: 0;
