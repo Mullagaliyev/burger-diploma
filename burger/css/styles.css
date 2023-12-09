@@ -942,14 +942,16 @@ header{
         flex: 0 0 140px;
     }
     .menu-other {
-        height: 108vw;
+        height: 406.05px;
     }
     .menu-grid-text{
         font-size: 14px;
     }
     .menu-other .menu-grid {
-        padding-bottom: 22vw;
         gap: 10px 5px;
+    }
+    .menu-grid-btn{
+        padding-bottom: 15px;
     }
     .menu-grid-two .menu-grid{
         gap: 0px 5px;
@@ -1020,10 +1022,14 @@ header{
     .promo-right .promo-description {
         margin-bottom: 30px;
     }
+    .footer-list-tel li{
+        margin-top: 5px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
     .footer {
-        padding-top: 60px;
+        padding-top: 66px;
         padding-bottom: 60px;
-        margin-top: 62px;
     }
     .footer-list + .footer-lis-tel {
         display: none;
@@ -1035,6 +1041,10 @@ header{
     .footer-tel {
         display: block;
         text-align: right;
+    }
+    .footer-logo{
+        width: 63.396px;
+        height: 56px;
     }
     .footer-box {
         display: grid;
