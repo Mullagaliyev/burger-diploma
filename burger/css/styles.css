@@ -903,7 +903,7 @@ header{
 		margin-bottom: 30px;
 	}
 	.menu-grid {
-		gap: 22px 15px;
+		gap: 22px 8px;
         margin-bottom: 40px;
 	}
 	.menu-grid-cover {
@@ -912,6 +912,7 @@ header{
 	}
 	.menu-grid-cover img {
 		height: 100%;
+        padding-bottom: 7px;
 	}
 	.menu-grid-title {
 		font-size: 15px;
@@ -930,42 +931,38 @@ header{
 		height: 122vw;
         gap: 10px 5px;
 	}
-    .menu-grid-two .menu-grid{
-        gap: 0px 5px;
-    }
+    
 	.menu-other .menu-grid {
 		padding-bottom: 38vw;
 	}
-    .menu-grid{
-        gap: 20px 5px;
-    }
-    .menu.menu-other{
-        padding-bottom: 50px;
-    }
 	.menu-other .menu-grid-cover {
-		height: 100%;
+		height: 56vw;
 	}
 	.menu-other .menu-grid-cover img {
-		width: 140px;
-        height: 180px;
+		height: 100%;
+        padding-bottom: 5px;
 	}
-    .menu-grid-cover img{
-        padding-bottom: 0;
-    }
 	.menu-other .menu-grid-item {
-		flex: 0 0 38vw;
+        flex: 0 0 43vw;
 	}
 	.footer {
-		margin-top: 28px;
+		margin-top: 16px;
 		padding-top: 60px;
 		padding-bottom: 60px;
 	}
 	.footer-list + .footer-list-tel {
 		display: none;
 	}
+    .footer-list-tel li{
+        padding-right: 11px;
+    }
 	.footer-tel {
 		display: block;
 	}
+    .footer-item h2{
+        margin-top: 32px;
+        font-size: 18px;
+    }
 	.footer-box {
 		display: grid;
 		grid-template-columns: 30% 70%;
