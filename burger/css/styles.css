@@ -928,6 +928,13 @@ header{
 		height: 122vw;
         gap: 10px 5px;
 	}
+    
+    .menu-grid-two .menu-grid{
+        gap: 0px 5px;
+    }
+    .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img{
+        padding-bottom: 8px;
+    }
 	.menu-other .menu-grid {
 		padding-bottom: 38vw;
 	}
