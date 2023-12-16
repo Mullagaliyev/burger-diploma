@@ -789,8 +789,22 @@ header{
         margin-top: 140px;
         padding-top: 60px;
     }
+    .footer-box{
+        margin-top: 2px;
+    }
     .footer-item:nth-child(3){
         padding-left: 5px;
+    }
+    .footer-item h2{
+        margin-bottom: 23px;
+    }
+    .footer-list{
+        margin-top: 20px;
+    }
+    .footer-list-tel a{
+        font-size: 21px;
+    }
+    .footer-item:nth-child(3){
     }
 }
 @media (max-width: 765px){
