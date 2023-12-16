@@ -804,9 +804,15 @@ header{
     .footer-list-tel a{
         font-size: 21px;
     }
-    .footer-item:nth-child(3){
+    .footer-list span:nth-child(2){
+        display: none;
     }
-}
+    .footer-item:nth-child(3){
+        padding-left: 22px; 
+    }
+    .footer-box{
+        margin-top: 4px;
+    }
 @media (max-width: 765px){
     nav{
         display: none;
